@@ -1,0 +1,12 @@
+node_modules*
+newrelic_agent.log
+heroku
+npm-debug.log
+.DS_Store
+env/local.js
+package-lock.json
+app_admin/dist_dev
+# app_admin/dist_prod
+/temp
+*userprofile*
+.env

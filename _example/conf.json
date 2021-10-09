@@ -1,0 +1,9 @@
+{
+  "settings": {
+    "nlpautolearn": {
+      "threshold": 0.8
+    }
+  },
+  "use": ["PhongSplitter"]
+}
+

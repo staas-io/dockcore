@@ -1,0 +1,19 @@
+{
+  "name": "Dockcore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./_example/test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ST4AS/Dockcore.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
