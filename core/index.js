@@ -40,5 +40,8 @@ module.exports = {
 	UUID,
 	Timer,
 	Logger,
-	Helper: require('./helper'),
+	Helper: {
+		...require('./helper'),
+		...require('./utilities'),
+	},
 };
