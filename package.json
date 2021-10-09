@@ -4,7 +4,7 @@
 	"description": "npm i github:ST4AS/Dockcore",
 	"author": "",
 	"license": "ISC",
-	"_id": "Dockcore@1.0.0",
+	"_id": "Dockcore@0.1.3",
 	"_from": "Dockcore@*",
 	
 	"main": "index.js",
