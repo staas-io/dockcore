@@ -1,19 +1,32 @@
 {
-  "name": "Dockcore",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "node ./_example/test",
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:ST4AS/Dockcore.git"
-  },
-  "author": "",
-  "license": "ISC"
+	"name": "Dockcore",
+	"version": "0.1.0",
+	"description": "",
+	"author": "",
+	"license": "ISC",
+	"_id": "Dockcore@1.0.0",
+	"_from": "Dockcore@*",
+	
+	"main": "index.js",
+	"bin": {
+		"Dockcore": "./index.js"
+	},
+	
+	"dependencies": {
+	},
+	"devDependencies": {},
+	
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:ST4AS/Dockcore.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ST4AS/Dockcore/issues"
+	},
+	"homepage": "https://github.com/ST4AS/Dockcore#readme",
+
+	"scripts": {
+		"test": "node ./_example/test",
+		"start": "node index.js"
+	}
 }
