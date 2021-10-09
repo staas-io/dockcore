@@ -10,7 +10,7 @@ const {
   MemoryStorage,
   uuid,
   Context,
-} = require('./core');
+} = require('../core');
 
 const containerBootstrap = require('./container-bootstrap');
 const dock = require('./dock');
@@ -49,9 +49,6 @@ module.exports = {
   listFilesAbsolute,
   loadEnv,
   ObjToArr,
-  Stemmer,
-  Stopwords,
-  Tokenizer,
   Timer,
   logger,
   MemoryStorage,
