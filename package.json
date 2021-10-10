@@ -1,10 +1,10 @@
 {
 	"name": "Dockcore",
-	"version": "0.1.3",
+	"version": "0.1.4",
 	"description": "npm i github:ST4AS/Dockcore",
 	"author": "",
 	"license": "ISC",
-	"_id": "Dockcore@0.1.3",
+	"_id": "Dockcore@0.1.4",
 	"_from": "Dockcore@*",
 	"main": "index.js",
 	"bin": {
