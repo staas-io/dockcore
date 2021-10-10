@@ -1,8 +1,8 @@
-const { dock } = require('./core');
+const { Dock } = require('./core');
 
 run = () => {
-  dock.start();
-  let container = dock.getContainer()
+  Dock.start();
+  let container = Dock.getContainer()
 }
 
 
