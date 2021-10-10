@@ -104,4 +104,4 @@ class Dock {
 
 const dock = new Dock();
 
-module.exports = dock;
+module.exports = {dock};
