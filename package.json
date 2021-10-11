@@ -1,14 +1,14 @@
 {
 	"name": "Dockcore",
 	"version": "0.1.4",
-	"description": "npm i github:ST4AS/Dockcore",
+	"description": "npm i github:ST4AS/dockcore",
 	"author": "",
 	"license": "ISC",
-	"_id": "Dockcore@0.1.4",
-	"_from": "Dockcore@*",
+	"_id": "dockcore@0.1.4",
+	"_from": "dockcore@*",
 	"main": "index.js",
 	"bin": {
-		"Dockcore": "./index.js"
+		"dockcore": "./index.js"
 	},
 	"dependencies": {
 		"lodash": "^4.17.21",
@@ -19,12 +19,12 @@
 	"devDependencies": {},
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:ST4AS/Dockcore.git"
+		"url": "git@github.com:ST4AS/dockcore.git"
 	},
 	"bugs": {
-		"url": "https://github.com/ST4AS/Dockcore/issues"
+		"url": "https://github.com/ST4AS/dockcore/issues"
 	},
-	"homepage": "https://github.com/ST4AS/Dockcore#readme",
+	"homepage": "https://github.com/ST4AS/dockcore#readme",
 	"scripts": {
 		"test": "node ./_example/test",
 		"start": "node index.js"
