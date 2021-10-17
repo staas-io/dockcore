@@ -22,7 +22,7 @@ const {
 } = require('./helper');
 
 async function dockStart(settings, mustLoadEnv) {
-	await dock.start(settings, mustLoadEnv);
+	await Dock.start(settings, mustLoadEnv);
 	return dock;
 }
 

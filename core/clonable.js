@@ -5,9 +5,10 @@ class Clonable {
 	 * Constructor of the class
 	 * @param {object} settings
 	 */
-	constructor(settings = {}, container = defaultContainer) {
+	constructor(settings = {}, container = defaultContainer, name = 'clonable') {
+		this.name = settings.name || name;
 		this.container = settings.container || container;
-		this.applySettings(this, settings);
+		this.applySettings(this, this.container?.getConfiguration(this.name) || settings);
 	}
 
 	get logger() {
